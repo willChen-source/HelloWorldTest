@@ -15,9 +15,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    // this is a test
-    // this is the second test
+    
+    UILabel * lable = [[UILabel alloc]initWithFrame:CGRectMake(20, 100, 280, 30)];
+    lable.text = @"hi, Will!";
+    [self.view addSubview:lable];
 }
 
 
