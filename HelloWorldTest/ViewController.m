@@ -17,7 +17,7 @@
     [super viewDidLoad];
     
     UILabel * lable = [[UILabel alloc]initWithFrame:CGRectMake(20, 100, 280, 30)];
-    lable.text = @"hi, Will!";
+    lable.text = @"again,,,,,,hi, Will!";
     [self.view addSubview:lable];
 }
 
